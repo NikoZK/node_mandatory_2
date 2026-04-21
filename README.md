@@ -15,4 +15,4 @@ git pull origin main --allow-unrelated-histories
 git push -u origin main
 ```
 
-If `git pull` reports conflicts, resolve them, then run `git add .` and `git commit` before `git push`.
+If `git pull` reports conflicts, resolve them, then run `git add .` and `git commit` (or `git commit -m "Resolve merge conflicts"`) before `git push`.
