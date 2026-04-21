@@ -10,6 +10,7 @@ git add .
 git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/NikoZK/node_mandatory_2.git
+# This repo already has commits, so allow unrelated histories on first pull.
 git pull origin main --allow-unrelated-histories
 git push -u origin main
 ```
