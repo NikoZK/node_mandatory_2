@@ -4,7 +4,7 @@ Auth application for the mandatory 2 assignment in my Node.js course.
 ## Connect an existing local project to this repository
 
 ```bash
-cd ~/projects/existing-project
+cd /path/to/your-project
 git init
 git add .
 git commit -m "Initial commit"
