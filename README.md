@@ -13,5 +13,3 @@ git remote add origin https://github.com/NikoZK/node_mandatory_2.git
 git pull origin main --allow-unrelated-histories
 git push -u origin main
 ```
-
-If your remote repository is completely empty, you can skip the `git pull ... --allow-unrelated-histories` step.
