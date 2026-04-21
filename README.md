@@ -4,7 +4,7 @@ Auth application for the mandatory 2 assignment in my Node.js course.
 ## Connect an existing local project to this repository
 
 ```bash
-cd /path/to/your-project
+cd <path/to/your-project>
 git init
 git add .
 git commit -m "Initial commit"
@@ -15,4 +15,4 @@ git pull origin main --allow-unrelated-histories
 git push -u origin main
 ```
 
-If `git pull` reports conflicts, resolve them, then run `git add .` and `git commit -m "Resolve merge conflicts"` before `git push`.
+If `git pull` reports conflicts, resolve them, then run `git add .` and `git commit` before `git push`.
